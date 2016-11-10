@@ -7,6 +7,15 @@ img{
 	-moz-background-size:14% 100%; /* 老版本的 Firefox */
 	background-repeat:no-repeat;
 }
+a{text-decoration:none;
+	color:#4a4a4a;
+	transition:color 0.2s;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	-ms-transition: color 0.2s;
+	-o-transition: color 0.2s;
+}
+a:hover{color:#FF5926;}
 /*顶部*/
 	.header{
 		width: 100%;
@@ -69,10 +78,10 @@ img{
 		position: relative;
 	}
 	.focusBox{
-	width: 100%;
-	position: relative;
-	height: 460px;
-	overflow: hidden;
+		width: 100%;
+		position: relative;
+		height: 460px;
+		overflow: hidden;
 	}
 	.focusBox .pic{
 		position: relative;
@@ -182,7 +191,7 @@ img{
 	border: 1px solid #ccc;
 	border-left: 0px;
 	z-index: 999;
-	/*display: none;*/
+	display: none;
 	background: url(../images/bk-nav1.png)no-repeat;
 }
 .lists,.details{
@@ -282,6 +291,42 @@ img{
 	color: #93999f;
 	font-size: 12px;
 }
+.title{
+	position: relative;
+	top: 50px;
+	width: 1200px;
+	margin-bottom: 20px;
+}
+.title-r span,.title-l span{
+	font-size: 16px;
+}
+.lesson{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
